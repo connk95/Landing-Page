@@ -1,0 +1,80 @@
+body {
+    padding: 0 200px 0 200px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.b-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+}
+
+.b-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.b-quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    justify-content: left;
+}
+
+.author {
+    display: flex;
+    justify-content: right;
+}
+
+.b-action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    display: flex;
+}
+
+.signup {
+    display: flex;
+}
+
+.button {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
