@@ -83,18 +83,26 @@ h2 {
 .b-images {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100vh;
     height: auto;
+    flex-wrap: nowrap;
     border: red 1px solid;
 }
 
-.image-1, .image-2, .image-3, .image-4 {
+.image-1, .image-2, .image-3, .image-4 {    
     display: flex;
-    border: #3882f6 3px solid;
-    border-radius: 8px;
+    flex-direction: column;
+}
+
+.i-1, .i-2, .i-3, .i-4 {
     width: 160px;
     height: 160px;
+    overflow: hidden;
+    border: #3882f6 4px solid;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
 }
 
 .image-text-1, .image-text-2, .image-text-3, .image-text-4 {
@@ -155,4 +163,6 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+
 
