@@ -11,7 +11,7 @@ body {
 .intro {
     display: flex;
     flex-direction: column;
-    color:  #E9E7EB; 
+    color:  #949aa3; 
     font-size: 18px;
     font-family: sans-serif;
     width: 50%;
@@ -21,7 +21,7 @@ body {
 a {
     padding: 0 10px 0 10px;
     text-decoration: none;
-    color:  #E9E7EB; 
+    color:  #949aa3; 
     font-size: 18px;
     font-family: sans-serif;
 }
@@ -31,6 +31,7 @@ h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
 .h-top {
@@ -64,12 +65,10 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: red 1px solid;
 }
 
 .info{
     display: flex;
-    border: red 1px solid;
     font-family: sans-serif;
     font-weight: bolder;
     padding: 16px;
@@ -87,12 +86,14 @@ h2 {
     width: 100vh;
     height: auto;
     flex-wrap: nowrap;
-    border: red 1px solid;
+    padding: 0 0 120px 0;
 }
 
 .image-1, .image-2, .image-3, .image-4 {    
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .i-1, .i-2, .i-3, .i-4 {
@@ -107,41 +108,94 @@ h2 {
 
 .image-text-1, .image-text-2, .image-text-3, .image-text-4 {
     display: flex;
+    align-items: center;
+    margin: 16px;
+}
+
+.p2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #959ba2;
+    margin: 8px 24px 8px 24px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
 }
 
 .b-quote {
     display: flex;
     flex-direction: column;
-    border: red 1px solid;
+    width: 100vh;
+    padding: 120px;
 }
 
-.quote {
+.quote-text {
     display: flex;
     justify-content: left;
-    border: red 1px solid;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.p3 {
+    margin: 0 32px 0 32px;
 }
 
 .author {
     display: flex;
     justify-content: right;
-    border: red 1px solid;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.p4 {
+    margin: 0 32px 0 32px;
 }
 
 .b-action {
     display: flex;
     justify-content: space-between;
-    border: red 1px solid;
+    background-color: #3882f6;
+    border: #3882f6;
+    border-radius: 16px;
+    margin: 100px 200px 100px 200px;
+    padding: 50px 120px 50px 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h3-1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.p5 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #f9faf8;
+    margin: 0;
+    font-weight: lighter;
 }
 
 .b-text{
     display: flex;
     flex-direction: column;
-    border: red 1px solid;
 }
 
 .call {
     display: flex;
-    border: red 1px solid;
 }
 
 .signup {
@@ -157,11 +211,31 @@ h2 {
     font-family: sans-serif;
     font-weight: bold;
     width: 120px;
+    border: 0px;
+    justify-content: center;
+}
+
+.button2 {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 120px;
+    border: #f9faf8 2px solid;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    background-color: #1f2937;
+    padding: 20px 0 20px 0;
+    color: #f9faf8;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 
